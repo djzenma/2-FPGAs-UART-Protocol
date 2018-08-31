@@ -1,0 +1,35 @@
+NET "clk" LOC = B8;
+
+NET "rst" LOC = N3;
+
+NET "serial1" LOC = A9;
+NET "serial2" LOC = C6;
+
+NET "addBut" LOC = G12;
+NET "subBut" LOC = C11;
+NET "multBut" LOC = M4;
+NET "divBut" LOC = A7;
+
+NET "disp[6]" LOC = L14;
+NET "disp[5]" LOC = H12;
+NET "disp[4]" LOC = N14;
+NET "disp[3]" LOC = N11;
+NET "disp[2]" LOC = P12;
+NET "disp[1]" LOC = L13;
+NET "disp[0]" LOC = M12;
+
+NET "segmentCount[0]" LOC = K14;
+NET "segmentCount[1]" LOC = M13;
+NET "segmentCount[2]" LOC = J12;
+NET "segmentCount[3]" LOC = F12;
+
+NET "led[7]" LOC = G1;
+NET "led[6]" LOC = P4;
+NET "led[5]" LOC = N4;
+NET "led[4]" LOC = N5;
+NET "led[3]" LOC = P6;
+NET "led[2]" LOC = P7;
+NET "led[1]" LOC = M11;
+NET "led[0]" LOC = M5;
+
+

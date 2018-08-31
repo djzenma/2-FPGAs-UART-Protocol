@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/eidma/Desktop/Final Project/testRem.xst" -ofn "C:/Users/eidma/Desktop/Final Project/testRem.syr" 

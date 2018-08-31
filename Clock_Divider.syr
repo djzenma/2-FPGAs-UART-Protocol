@@ -1,0 +1,380 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: Clock_Divider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Clock_Divider.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Clock_Divider"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : Clock_Divider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Clock_Divider.v" in library work
+Module <Clock_Divider> compiled
+No errors in compilation
+Analysis of file <"Clock_Divider.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Clock_Divider> in library <work> with parameters.
+	n = "00000010111110101111000010000000"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Clock_Divider>.
+	n = 32'sb00000010111110101111000010000000
+Module <Clock_Divider> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clock_Divider>.
+    Related source file is "Clock_Divider.v".
+WARNING:Xst:647 - Input <select> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <outClock>.
+    Found 32-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clock_Divider> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Clock_Divider> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Clock_Divider, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Clock_Divider.ngr
+Top Level Output File Name         : Clock_Divider
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 146
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 31
+#      LUT2                        : 32
+#      LUT4                        : 8
+#      MUXCY                       : 39
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 33
+#      FDC                         : 32
+#      FDCE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       39  out of    960     4%  
+ Number of Slice Flip Flops:             33  out of   1920     1%  
+ Number of 4 input LUTs:                 73  out of   1920     3%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   3  out of     83     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+inClock                            | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 33    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.407ns (Maximum Frequency: 156.079MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.310ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inClock'
+  Clock period: 6.407ns (frequency: 156.079MHz)
+  Total number of paths / destination ports: 1585 / 34
+-------------------------------------------------------------------------
+Delay:               6.407ns (Levels of Logic = 33)
+  Source:            counter_1 (FF)
+  Destination:       counter_31 (FF)
+  Source Clock:      inClock rising
+  Destination Clock: inClock rising
+
+  Data Path: counter_1 to counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  counter_1 (counter_1)
+     LUT1:I0->O            1   0.704   0.000  Mcount_counter_cy<1>_rt (Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Mcount_counter_cy<1> (Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<2> (Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<3> (Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<4> (Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<5> (Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<6> (Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<7> (Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<8> (Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<9> (Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<10> (Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<11> (Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<12> (Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<13> (Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<14> (Mcount_counter_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<15> (Mcount_counter_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<16> (Mcount_counter_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<17> (Mcount_counter_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<18> (Mcount_counter_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<19> (Mcount_counter_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<20> (Mcount_counter_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<21> (Mcount_counter_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<22> (Mcount_counter_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<23> (Mcount_counter_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<24> (Mcount_counter_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<25> (Mcount_counter_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<26> (Mcount_counter_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<27> (Mcount_counter_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<28> (Mcount_counter_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  Mcount_counter_cy<29> (Mcount_counter_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  Mcount_counter_cy<30> (Mcount_counter_cy<30>)
+     XORCY:CI->O           1   0.804   0.499  Mcount_counter_xor<31> (Result<31>)
+     LUT2:I1->O            1   0.704   0.000  Mcount_counter_eqn_311 (Mcount_counter_eqn_31)
+     FDC:D                     0.308          counter_31
+    ----------------------------------------
+    Total                      6.407ns (5.286ns logic, 1.121ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'inClock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            outClock (FF)
+  Destination:       outClock (PAD)
+  Source Clock:      inClock rising
+
+  Data Path: outClock to outClock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.591   0.447  outClock (outClock_OBUF)
+     OBUF:I->O                 3.272          outClock_OBUF (outClock)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.91 secs
+ 
+--> 
+
+Total memory usage is 298824 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

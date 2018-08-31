@@ -1,0 +1,10 @@
+#NET "clk" LOC = "B8";
+#
+#NET "result[7]" LOC = "G1";
+#NET "result[6]" LOC = "P4";
+#NET "result[5]" LOC = "N4";
+#NET "result[4]" LOC = "N5";
+#NET "result[3]" LOC = "P6";
+#NET "result[2]" LOC = "P7";
+#NET "result[1]" LOC = "M11";
+#NET "result[0]" LOC = "M5";

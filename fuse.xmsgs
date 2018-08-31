@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 30: Parameter declaration becomes local in <arg fmt="%s" index="1">Receiver</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 31: Parameter declaration becomes local in <arg fmt="%s" index="1">Receiver</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 32: Parameter declaration becomes local in <arg fmt="%s" index="1">Receiver</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 33: Parameter declaration becomes local in <arg fmt="%s" index="1">Receiver</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 34: Parameter declaration becomes local in <arg fmt="%s" index="1">Receiver</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 143: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 144: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 145: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 125: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">remainder</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ALU.v" Line 48: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Result</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/BCD.v" Line 26: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sign</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/BCD.v" Line 27: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sign</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/BCD.v" Line 28: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sign</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 142: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+</messages>
+

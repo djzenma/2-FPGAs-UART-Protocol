@@ -1,0 +1,6 @@
+verilog work "Transmitter.v"
+verilog work "Synchronizer.v"
+verilog work "sevenSegment.v"
+verilog work "SegementCounter.v"
+verilog work "Clock_Divider.v"
+verilog work "TransmitNums.v"

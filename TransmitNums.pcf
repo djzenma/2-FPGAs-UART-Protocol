@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 19 22:41:15 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "transmit_en" LOCATE = SITE "E2" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "rst" LOCATE = SITE "N3" LEVEL 1;
+COMP "decBut1" LOCATE = SITE "A7" LEVEL 1;
+COMP "decBut2" LOCATE = SITE "C11" LEVEL 1;
+COMP "disp<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "disp<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "disp<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "disp<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "disp<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "disp<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "disp<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "uBut1" LOCATE = SITE "M4" LEVEL 1;
+COMP "uBut2" LOCATE = SITE "G12" LEVEL 1;
+COMP "point" LOCATE = SITE "N13" LEVEL 1;
+COMP "serial1" LOCATE = SITE "C6" LEVEL 1;
+COMP "serial2" LOCATE = SITE "A9" LEVEL 1;
+COMP "segmentCount<0>" LOCATE = SITE "K14" LEVEL 1;
+COMP "segmentCount<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "segmentCount<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "segmentCount<3>" LOCATE = SITE "F12" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

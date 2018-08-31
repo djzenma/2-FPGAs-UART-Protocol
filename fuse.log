@@ -1,0 +1,51 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/eidma/Desktop/Final Project/receiveTest_isim_beh.exe -prj C:/Users/eidma/Desktop/Final Project/receiveTest_beh.prj work.receiveTest work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/Divider.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/Synchronizer.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/sevenSegment.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/SegementCounter.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/Receiver.v" into library work
+WARNING:HDLCompiler:693 - "C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 30: Parameter declaration becomes local in Receiver with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 31: Parameter declaration becomes local in Receiver with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 32: Parameter declaration becomes local in Receiver with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 33: Parameter declaration becomes local in Receiver with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/Users/eidma/Desktop/Final Project/Receiver.v" Line 34: Parameter declaration becomes local in Receiver with formal parameter declaration list
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/Clock_Divider.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/BCD.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/ALU.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" into library work
+Analyzing Verilog file "C:/Users/eidma/Desktop/Final Project/receiveTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 143: Size mismatch in connection of port <in>. Formal port size is 4-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 144: Size mismatch in connection of port <in>. Formal port size is 4-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 145: Size mismatch in connection of port <in>. Formal port size is 4-bit while actual signal size is 7-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 125: Size mismatch in connection of port <remainder>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ALU.v" Line 48: Size mismatch in connection of port <Result>. Formal port size is 32-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/BCD.v" Line 26: Size mismatch in connection of port <sign>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/BCD.v" Line 27: Size mismatch in connection of port <sign>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/BCD.v" Line 28: Size mismatch in connection of port <sign>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 142: Size mismatch in connection of port <in>. Formal port size is 4-bit while actual signal size is 7-bit.
+Completed static elaboration
+Compiling module Clock_Divider
+Compiling module SegmentCounter
+Compiling module Debouncer
+Compiling module Synchronizer
+Compiling module RED
+Compiling module Receiver
+Compiling module Divide
+Compiling module ALU
+Compiling module BCD
+Compiling module bcdSevenSegment
+Compiling module ReceiveNums
+Compiling module receiveTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/eidma/Desktop/Final Project/receiveTest_isim_beh.exe
+Fuse Memory Usage: 29420 KB
+Fuse CPU Usage: 514 ms

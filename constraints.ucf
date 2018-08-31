@@ -1,0 +1,15 @@
+
+NET "clk" LOC = B8 ;
+
+NET "disp[6]" LOC = L14;
+NET "disp[5]" LOC = H12;
+NET "disp[4]" LOC = N14;
+NET "disp[3]" LOC = N11;
+NET "disp[2]" LOC = P12;
+NET "disp[1]" LOC = L13;
+NET "disp[0]" LOC = M12;
+
+NET "segmentCount[0]" LOC = K14;
+NET "segmentCount[1]" LOC = M13;
+NET "segmentCount[2]" LOC = J12;
+NET "segmentCount[3]" LOC = F12;

@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 66 </arg>Connection to input port &apos;<arg fmt="%s" index="2">select</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 67 </arg>Connection to input port &apos;<arg fmt="%s" index="2">select</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 128 </arg>Connection to output port &apos;<arg fmt="%s" index="2">remainder</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to output port &apos;<arg fmt="%s" index="2">Result</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to output port &apos;<arg fmt="%s" index="2">Remainder</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to input port &apos;<arg fmt="%s" index="2">dividend</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to input port &apos;<arg fmt="%s" index="2">divider</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to input port &apos;<arg fmt="%s" index="2">sign</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ALU.v&quot; line 53 </arg>Connection to input port &apos;<arg fmt="%s" index="2">approx</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Adder.v&quot; line 28 </arg>Connection to input port &apos;<arg fmt="%s" index="2">cin</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Substractor.v&quot; line 30 </arg>Connection to input port &apos;<arg fmt="%s" index="2">cin</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">sign</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">approx</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 27 </arg>Connection to input port &apos;<arg fmt="%s" index="2">sign</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 27 </arg>Connection to input port &apos;<arg fmt="%s" index="2">approx</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 28 </arg>Connection to input port &apos;<arg fmt="%s" index="2">sign</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;BCD.v&quot; line 28 </arg>Connection to input port &apos;<arg fmt="%s" index="2">approx</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 145 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 146 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 147 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;ReceiveNums.v&quot; line 148 </arg>Connection to input port &apos;<arg fmt="%s" index="2">in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="863" delta="old" >&quot;<arg fmt="%s" index="1">Divider.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Name conflict (<arg fmt="%s" index="3">&lt;remainder&gt; and &lt;Remainder&gt;, renaming remainder as remainder_rnm0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">quotient_temp&lt;31&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">diff</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ready3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ready2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ready1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">result&lt;31:8&gt;</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">cout8</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">cout8</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ready</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">units_seg&lt;6:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">units&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">thousands_seg&lt;6:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">thousands&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">tens_seg&lt;6:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">tens&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">remainder</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">hundreds_seg&lt;6:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">hundreds&lt;31:4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">dv2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">dv1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">calc</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ZFlag</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">divider</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">divider1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">divider2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">divider3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Remainder_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">divider3</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3034" delta="old" >In order to maximize performance and save block RAM resources, the small ROM &lt;<arg fmt="%s" index="1">Mrom_Y_mux0000</arg>&gt; will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">divider_copy_63</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Divide</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">led_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_60</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_61</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_62</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_38</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_39</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_40</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_41</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_42</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_43</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_44</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_45</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_46</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_47</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_48</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_49</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_50</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_51</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_52</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_53</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_54</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_55</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_56</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_57</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_58</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_35</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_36</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_37</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_38</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_39</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_40</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_41</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_42</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_43</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_44</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_45</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_46</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_47</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_48</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_49</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_50</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_51</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_52</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_53</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_54</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_55</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_56</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_57</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_58</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/divider_copy_59</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_62</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_39</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_40</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_41</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_42</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_43</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_44</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_45</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_46</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_47</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_48</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_49</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_50</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_51</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_52</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_53</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_54</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_55</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_56</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_57</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_58</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_59</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_60</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_61</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/divider_copy_62</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_59</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_60</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_61</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/divider_copy_62</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/negative_output</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_41</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_42</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_43</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_44</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_45</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_46</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_47</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_48</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_49</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_50</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_51</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_52</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_53</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_54</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_55</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_56</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_57</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_58</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_59</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_60</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/divider_copy_61</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ReceiveNums</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/quotient_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">alu/divider/Remainder_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider1/quotient_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider2/quotient_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/quotient_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">converter/divider3/Remainder_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider1/quotient_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider2/quotient_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider3/quotient_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider2/quotient_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider1/quotient_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider1/quotient_temp_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider1/quotient_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider2/quotient_temp_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider2/quotient_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider3/quotient_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">segment5/Y_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;segment5/Y_5&gt; &lt;segment5/Y_4&gt; &lt;segment5/Y_3&gt; &lt;segment5/Y_2&gt; &lt;segment5/Y_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">converter/divider3/quotient_temp_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;converter/divider3/quotient_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">alu/divider/quotient_temp_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ReceiveNums</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;alu/divider/quotient_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

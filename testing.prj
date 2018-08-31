@@ -1,0 +1,4 @@
+verilog work "sevenSegment.v"
+verilog work "SegementCounter.v"
+verilog work "Clock_Divider.v"
+verilog work "testing.v"

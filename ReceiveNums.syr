@@ -1,0 +1,1595 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: ReceiveNums.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ReceiveNums.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ReceiveNums"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : ReceiveNums
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "FA.v" in library work
+Compiling verilog file "Substractor.v" in library work
+Module <FA> compiled
+Compiling verilog file "Multiply.v" in library work
+Module <Substractor> compiled
+Compiling verilog file "Divider.v" in library work
+Module <Multiply> compiled
+Compiling verilog file "Adder.v" in library work
+Module <Divide> compiled
+Compiling verilog file "Synchronizer.v" in library work
+Module <Adder> compiled
+Module <Debouncer> compiled
+Module <Synchronizer> compiled
+Compiling verilog file "sevenSegment.v" in library work
+Module <RED> compiled
+Compiling verilog file "SegementCounter.v" in library work
+Module <bcdSevenSegment> compiled
+Compiling verilog file "Receiver.v" in library work
+Module <SegmentCounter> compiled
+Compiling verilog file "Clock_Divider.v" in library work
+Module <Receiver> compiled
+Compiling verilog file "BCD.v" in library work
+Module <Clock_Divider> compiled
+Compiling verilog file "ALU.v" in library work
+Module <BCD> compiled
+Compiling verilog file "ReceiveNums.v" in library work
+Module <ALU> compiled
+Module <ReceiveNums> compiled
+No errors in compilation
+Analysis of file <"ReceiveNums.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <ReceiveNums> in library <work> with parameters.
+	fail = "0111000"
+
+Analyzing hierarchy for module <Clock_Divider> in library <work> with parameters.
+	n = "00000010111110101111000010000000"
+
+Analyzing hierarchy for module <SegmentCounter> in library <work>.
+
+Analyzing hierarchy for module <Debouncer> in library <work>.
+
+Analyzing hierarchy for module <Synchronizer> in library <work>.
+
+Analyzing hierarchy for module <RED> in library <work> with parameters.
+	edg = "01"
+	one = "10"
+	zero = "00"
+
+Analyzing hierarchy for module <Receiver> in library <work> with parameters.
+	CLKS_PER_BIT = "00000000000000000000000001010111"
+	s_CLEANUP = "100"
+	s_IDLE = "000"
+	s_RX_DATA_BITS = "010"
+	s_RX_START_BIT = "001"
+	s_RX_STOP_BIT = "011"
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <BCD> in library <work>.
+
+Analyzing hierarchy for module <bcdSevenSegment> in library <work>.
+
+Analyzing hierarchy for module <Divide> in library <work>.
+
+Analyzing hierarchy for module <Adder> in library <work>.
+
+Analyzing hierarchy for module <Substractor> in library <work>.
+
+Analyzing hierarchy for module <Multiply> in library <work>.
+
+Analyzing hierarchy for module <FA> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ReceiveNums>.
+	fail = 7'b0111000
+Module <ReceiveNums> is correct for synthesis.
+ 
+Analyzing module <Clock_Divider> in library <work>.
+	n = 32'sb00000010111110101111000010000000
+Module <Clock_Divider> is correct for synthesis.
+ 
+Analyzing module <SegmentCounter> in library <work>.
+Module <SegmentCounter> is correct for synthesis.
+ 
+Analyzing module <Debouncer> in library <work>.
+Module <Debouncer> is correct for synthesis.
+ 
+Analyzing module <Synchronizer> in library <work>.
+Module <Synchronizer> is correct for synthesis.
+ 
+Analyzing module <RED> in library <work>.
+	edg = 2'b01
+	one = 2'b10
+	zero = 2'b00
+Module <RED> is correct for synthesis.
+ 
+Analyzing module <Receiver> in library <work>.
+	CLKS_PER_BIT = 32'sb00000000000000000000000001010111
+	s_CLEANUP = 3'b100
+	s_IDLE = 3'b000
+	s_RX_DATA_BITS = 3'b010
+	s_RX_START_BIT = 3'b001
+	s_RX_STOP_BIT = 3'b011
+Module <Receiver> is correct for synthesis.
+ 
+Analyzing module <ALU> in library <work>.
+Module <ALU> is correct for synthesis.
+ 
+Analyzing module <Divide> in library <work>.
+WARNING:Xst:863 - "Divider.v" line 28: Name conflict (<remainder> and <Remainder>, renaming remainder as remainder_rnm0).
+Module <Divide> is correct for synthesis.
+ 
+Analyzing module <Adder> in library <work>.
+Module <Adder> is correct for synthesis.
+ 
+Analyzing module <FA> in library <work>.
+Module <FA> is correct for synthesis.
+ 
+Analyzing module <Substractor> in library <work>.
+Module <Substractor> is correct for synthesis.
+ 
+Analyzing module <Multiply> in library <work>.
+Module <Multiply> is correct for synthesis.
+ 
+Analyzing module <BCD> in library <work>.
+Module <BCD> is correct for synthesis.
+ 
+Analyzing module <bcdSevenSegment> in library <work>.
+Module <bcdSevenSegment> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clock_Divider>.
+    Related source file is "Clock_Divider.v".
+    Found 1-bit register for signal <outClock>.
+    Found 32-bit register for signal <counter>.
+    Found 32-bit adder for signal <counter$mux0000>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Clock_Divider> synthesized.
+
+
+Synthesizing Unit <SegmentCounter>.
+    Related source file is "SegementCounter.v".
+    Found 2-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <SegmentCounter> synthesized.
+
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "Synchronizer.v".
+    Found 1-bit register for signal <q1>.
+    Found 1-bit register for signal <q2>.
+    Found 1-bit register for signal <q3>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <Synchronizer>.
+    Related source file is "Synchronizer.v".
+    Found 1-bit register for signal <sig1>.
+    Found 1-bit register for signal <metastable>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <Synchronizer> synthesized.
+
+
+Synthesizing Unit <RED>.
+    Related source file is "Synchronizer.v".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <RED> synthesized.
+
+
+Synthesizing Unit <Receiver>.
+    Related source file is "Receiver.v".
+    Found finite state machine <FSM_1> for signal <r_SM_Main>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 6                                              |
+    | Clock              | i_Clock                   (rising_edge)        |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <r_Bit_Index>.
+    Found 3-bit adder for signal <r_Bit_Index$addsub0000> created at line 109.
+    Found 8-bit register for signal <r_Clock_Count>.
+    Found 8-bit adder for signal <r_Clock_Count$share0000> created at line 59.
+    Found 8-bit register for signal <r_Rx_Byte>.
+    Found 1-bit register for signal <r_Rx_Data>.
+    Found 1-bit register for signal <r_Rx_Data_R>.
+    Found 1-bit register for signal <r_Rx_DV>.
+    Found 8-bit comparator less for signal <r_SM_Main$cmp_lt0000> created at line 96.
+    Found 3-bit comparator less for signal <r_SM_Main$cmp_lt0001> created at line 107.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <Receiver> synthesized.
+
+
+Synthesizing Unit <bcdSevenSegment>.
+    Related source file is "sevenSegment.v".
+    Found 16x7-bit ROM for signal <Y$mux0000> created at line 25.
+    Found 7-bit register for signal <Y>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   7 D-type flip-flop(s).
+Unit <bcdSevenSegment> synthesized.
+
+
+Synthesizing Unit <Divide>.
+    Related source file is "Divider.v".
+WARNING:Xst:646 - Signal <quotient_temp<31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <diff> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit register for signal <Result>.
+    Found 32-bit register for signal <Remainder>.
+    Found 6-bit register for signal <bit>.
+    Found 64-bit register for signal <dividend_copy>.
+    Found 32-bit adder for signal <dividend_copy$add0000> created at line 52.
+    Found 6-bit comparator lessequal for signal <dividend_copy$cmp_le0000> created at line 66.
+    Found 64-bit 4-to-1 multiplexer for signal <dividend_copy$mux0000>.
+    Found 64-bit register for signal <divider_copy>.
+    Found 32-bit adder for signal <divider_copy$add0000> created at line 55.
+    Found 64-bit 4-to-1 multiplexer for signal <divider_copy$mux0000>.
+    Found 1-bit register for signal <negative_output>.
+    Found 6-bit subtractor for signal <old_bit_17$addsub0000> created at line 85.
+    Found 64-bit subtractor for signal <old_diff_16$sub0000> created at line 68.
+    Found 32-bit adder for signal <old_quotient_18$add0000> created at line 79.
+    Found 32-bit register for signal <quotient>.
+    Found 6-bit comparator greater for signal <quotient$cmp_gt0000> created at line 66.
+    Found 31-bit register for signal <quotient_temp<30:0>>.
+    Found 32-bit adder for signal <remainder_rnm0$addsub0000> created at line 35.
+    Found 32-bit adder for signal <Result$addsub0000> created at line 91.
+    Found 32-bit comparator greatequal for signal <Result$cmp_ge0000> created at line 90.
+    Found 32-bit 4-to-1 multiplexer for signal <Result$mux0000>.
+    Summary:
+	inferred 262 D-type flip-flop(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred 160 Multiplexer(s).
+Unit <Divide> synthesized.
+
+
+Synthesizing Unit <Multiply>.
+    Related source file is "Multiply.v".
+    Found 16-bit adder for signal <result>.
+    Found 16-bit adder for signal <result$addsub0000> created at line 36.
+    Found 16-bit adder for signal <result$addsub0001> created at line 36.
+    Found 16-bit adder for signal <result$addsub0002> created at line 36.
+    Found 16-bit adder for signal <result$addsub0003> created at line 36.
+    Found 16-bit adder for signal <result$addsub0004> created at line 36.
+    Found 16-bit adder for signal <result$addsub0005> created at line 36.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+Unit <Multiply> synthesized.
+
+
+Synthesizing Unit <FA>.
+    Related source file is "FA.v".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <cout$xor0000> created at line 24.
+Unit <FA> synthesized.
+
+
+Synthesizing Unit <BCD>.
+    Related source file is "BCD.v".
+WARNING:Xst:646 - Signal <ready3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ready2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ready1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <BCD> synthesized.
+
+
+Synthesizing Unit <Adder>.
+    Related source file is "Adder.v".
+WARNING:Xst:1305 - Output <result<31:8>> is never assigned. Tied to value 000000000000000000000000.
+WARNING:Xst:646 - Signal <cout8> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Adder> synthesized.
+
+
+Synthesizing Unit <Substractor>.
+    Related source file is "Substractor.v".
+WARNING:Xst:646 - Signal <cout8> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit comparator greater for signal <negative$cmp_gt0000> created at line 39.
+    Found 8-bit adder for signal <result$addsub0000> created at line 40.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <Substractor> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "ALU.v".
+WARNING:Xst:646 - Signal <ready> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit 8-to-1 multiplexer for signal <Result>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <ReceiveNums>.
+    Related source file is "ReceiveNums.v".
+WARNING:Xst:646 - Signal <units_seg<6:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <units<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <thousands_seg<6:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <thousands<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <tens_seg<6:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <tens<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <remainder> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <hundreds_seg<6:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <hundreds<31:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dv2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dv1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <calc> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ZFlag> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit register for signal <disp>.
+    Found 8-bit register for signal <led>.
+    Found 4-bit register for signal <segmentCount>.
+    Found 3-bit register for signal <aluSel>.
+    Found 12-bit up counter for signal <counter>.
+    Found 8-bit register for signal <data1>.
+    Found 8-bit register for signal <data2>.
+    Found 7-bit 4-to-1 multiplexer for signal <disp$mux0000> created at line 154.
+    Found 5-bit register for signal <ledCount>.
+    Found 5-bit adder for signal <ledCount$add0000> created at line 203.
+    Found 12-bit adder for signal <old_counter_1$add0000> created at line 180.
+    Found 1-bit register for signal <r_reset>.
+    Found 4-bit 4-to-1 multiplexer for signal <segmentCount$mux0000> created at line 154.
+    Found 32-bit comparator lessequal for signal <w_validResult>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  44 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred  11 Multiplexer(s).
+Unit <ReceiveNums> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 5
+ 16x7-bit ROM                                          : 5
+# Adders/Subtractors                                   : 44
+ 12-bit adder                                          : 1
+ 16-bit adder                                          : 7
+ 3-bit adder                                           : 2
+ 32-bit adder                                          : 22
+ 5-bit adder                                           : 1
+ 6-bit subtractor                                      : 4
+ 64-bit subtractor                                     : 4
+ 8-bit adder                                           : 3
+# Counters                                             : 2
+ 12-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 215
+ 1-bit register                                        : 173
+ 3-bit register                                        : 3
+ 32-bit register                                       : 14
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+ 6-bit register                                        : 4
+ 64-bit register                                       : 8
+ 7-bit register                                        : 6
+ 8-bit register                                        : 5
+# Comparators                                          : 18
+ 3-bit comparator less                                 : 2
+ 32-bit comparator greatequal                          : 4
+ 32-bit comparator lessequal                           : 1
+ 6-bit comparator greater                              : 4
+ 6-bit comparator lessequal                            : 4
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 2
+# Multiplexers                                         : 15
+ 32-bit 4-to-1 multiplexer                             : 4
+ 32-bit 8-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+ 64-bit 4-to-1 multiplexer                             : 8
+ 7-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <receiver1/r_SM_Main/FSM> on signal <r_SM_Main[1:3]> with gray encoding.
+Optimizing FSM <receiver2/r_SM_Main/FSM> on signal <r_SM_Main[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 011
+ 011   | 010
+ 100   | 110
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <RED1/state/FSM> on signal <state[1:3]> with one-hot encoding.
+Optimizing FSM <RED2/state/FSM> on signal <state[1:3]> with one-hot encoding.
+Optimizing FSM <RED3/state/FSM> on signal <state[1:3]> with one-hot encoding.
+Optimizing FSM <RED4/state/FSM> on signal <state[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 10    | 100
+-------------------
+WARNING:Xst:1293 - FF/Latch <negative_output> has a constant value of 0 in block <divider>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <negative_output> has a constant value of 0 in block <divider1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <negative_output> has a constant value of 0 in block <divider2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <negative_output> has a constant value of 0 in block <divider3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Result_8> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_9> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_10> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_11> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_12> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_13> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_14> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_15> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_16> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_17> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_18> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_19> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_20> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_21> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_22> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_23> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_24> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_25> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_26> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_27> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_28> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_29> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_30> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_31> of sequential type is unconnected in block <divider>.
+WARNING:Xst:2677 - Node <Result_4> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_5> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_6> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_7> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_8> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_9> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_10> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_11> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_12> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_13> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_14> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_15> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_16> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_17> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_18> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_19> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_20> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_21> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_22> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_23> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_24> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_25> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_26> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_27> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_28> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_29> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_30> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_31> of sequential type is unconnected in block <divider1>.
+WARNING:Xst:2677 - Node <Result_4> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_5> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_6> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_7> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_8> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_9> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_10> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_11> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_12> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_13> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_14> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_15> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_16> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_17> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_18> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_19> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_20> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_21> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_22> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_23> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_24> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_25> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_26> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_27> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_28> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_29> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_30> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Result_31> of sequential type is unconnected in block <divider2>.
+WARNING:Xst:2677 - Node <Remainder_4> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_5> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_6> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_7> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_8> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_9> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_10> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_11> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_12> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_13> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_14> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_15> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_16> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_17> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_18> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_19> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_20> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_21> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_22> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_23> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_24> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_25> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_26> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_27> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_28> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_29> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_30> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Remainder_31> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_4> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_5> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_6> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_7> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_8> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_9> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_10> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_11> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_12> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_13> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_14> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_15> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_16> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_17> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_18> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_19> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_20> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_21> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_22> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_23> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_24> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_25> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_26> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_27> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_28> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_29> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_30> of sequential type is unconnected in block <divider3>.
+WARNING:Xst:2677 - Node <Result_31> of sequential type is unconnected in block <divider3>.
+
+Synthesizing (advanced) Unit <bcdSevenSegment>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_Y_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <bcdSevenSegment> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 5
+ 16x7-bit ROM                                          : 5
+# Adders/Subtractors                                   : 44
+ 12-bit adder                                          : 1
+ 16-bit adder                                          : 7
+ 3-bit adder                                           : 2
+ 32-bit adder                                          : 22
+ 5-bit adder                                           : 1
+ 6-bit subtractor                                      : 4
+ 64-bit subtractor                                     : 4
+ 8-bit adder                                           : 3
+# Counters                                             : 2
+ 12-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 1257
+ Flip-Flops                                            : 1257
+# Comparators                                          : 18
+ 3-bit comparator less                                 : 2
+ 32-bit comparator greatequal                          : 4
+ 32-bit comparator lessequal                           : 1
+ 6-bit comparator greater                              : 4
+ 6-bit comparator lessequal                            : 4
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 2
+# Multiplexers                                         : 15
+ 32-bit 4-to-1 multiplexer                             : 4
+ 32-bit 8-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+ 64-bit 4-to-1 multiplexer                             : 8
+ 7-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <divider_copy_63> (without init value) has a constant value of 0 in block <Divide>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <ReceiveNums> ...
+WARNING:Xst:1710 - FF/Latch <led_7> (without init value) has a constant value of 1 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Clock_Divider> ...
+
+Optimizing unit <Receiver> ...
+
+Optimizing unit <bcdSevenSegment> ...
+
+Optimizing unit <Divide> ...
+WARNING:Xst:1710 - FF/Latch <converter/divider3/divider_copy_60> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_61> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_62> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/negative_output> has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_38> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_39> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_40> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_41> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_42> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_43> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_44> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_45> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_46> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_47> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_48> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_49> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_50> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_51> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_52> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_53> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_54> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_55> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_56> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_57> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_58> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/negative_output> has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_35> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_36> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_37> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_38> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_39> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_40> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_41> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_42> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_43> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_44> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_45> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_46> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_47> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_48> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_49> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_50> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_51> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_52> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_53> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_54> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_55> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_56> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_57> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_58> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider3/divider_copy_59> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_62> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <alu/divider/negative_output> has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_39> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_40> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_41> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_42> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_43> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_44> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_45> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_46> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_47> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_48> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_49> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_50> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_51> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_52> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_53> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_54> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_55> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_56> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_57> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_58> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_59> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_60> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_61> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <alu/divider/divider_copy_62> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_59> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_60> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_61> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider2/divider_copy_62> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/negative_output> has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_41> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_42> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_43> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_44> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_45> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_46> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_47> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_48> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_49> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_50> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_51> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_52> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_53> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_54> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_55> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_56> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_57> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_58> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_59> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_60> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <converter/divider1/divider_copy_61> (without init value) has a constant value of 0 in block <ReceiveNums>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_temp_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Result_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/quotient_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_3> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_2> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_1> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <alu/divider/Remainder_0> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_temp_3> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/Result_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider1/quotient_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_temp_3> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/Result_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider2/quotient_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_temp_3> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Result_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/quotient_4> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_31> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_30> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_29> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_28> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_27> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_26> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_25> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_24> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_23> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_22> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_21> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_20> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_19> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_18> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_17> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_16> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_15> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_14> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_13> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_12> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_11> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_10> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_9> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_8> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_7> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_6> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_5> of sequential type is unconnected in block <ReceiveNums>.
+WARNING:Xst:2677 - Node <converter/divider3/Remainder_4> of sequential type is unconnected in block <ReceiveNums>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <converter/divider1/quotient_temp_2> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider1/quotient_2> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_4> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_4> 
+INFO:Xst:2261 - The FF/Latch <converter/divider2/quotient_temp_1> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider2/quotient_1> 
+INFO:Xst:2261 - The FF/Latch <converter/divider3/quotient_temp_1> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider3/quotient_1> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_0> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_0> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_1> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_1> 
+INFO:Xst:2261 - The FF/Latch <converter/divider2/quotient_temp_0> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider2/quotient_0> 
+INFO:Xst:2261 - The FF/Latch <converter/divider1/quotient_temp_0> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider1/quotient_0> 
+INFO:Xst:2261 - The FF/Latch <converter/divider1/quotient_temp_1> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider1/quotient_1> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_5> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_5> 
+INFO:Xst:2261 - The FF/Latch <converter/divider2/quotient_temp_2> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider2/quotient_2> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_3> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_3> 
+INFO:Xst:2261 - The FF/Latch <converter/divider3/quotient_temp_2> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider3/quotient_2> 
+INFO:Xst:2261 - The FF/Latch <segment5/Y_6> in Unit <ReceiveNums> is equivalent to the following 5 FFs/Latches, which will be removed : <segment5/Y_5> <segment5/Y_4> <segment5/Y_3> <segment5/Y_2> <segment5/Y_1> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_2> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_2> 
+INFO:Xst:2261 - The FF/Latch <converter/divider3/quotient_temp_0> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <converter/divider3/quotient_0> 
+INFO:Xst:2261 - The FF/Latch <alu/divider/quotient_temp_6> in Unit <ReceiveNums> is equivalent to the following FF/Latch, which will be removed : <alu/divider/quotient_6> 
+Found area constraint ratio of 100 (+ 5) on block ReceiveNums, actual ratio is 77.
+FlipFlop data1_0 has been replicated 1 time(s)
+FlipFlop data1_1 has been replicated 1 time(s)
+FlipFlop data2_0 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <ReceiveNums> :
+	Found 2-bit shift register for signal <receiver2/r_Rx_Data>.
+	Found 2-bit shift register for signal <receiver1/r_Rx_Data>.
+Unit <ReceiveNums> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 771
+ Flip-Flops                                            : 771
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ReceiveNums.ngr
+Top Level Output File Name         : ReceiveNums
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 2187
+#      GND                         : 1
+#      INV                         : 144
+#      LUT1                        : 60
+#      LUT2                        : 281
+#      LUT2_D                      : 21
+#      LUT2_L                      : 1
+#      LUT3                        : 199
+#      LUT3_D                      : 2
+#      LUT4                        : 588
+#      LUT4_D                      : 3
+#      LUT4_L                      : 2
+#      MULT_AND                    : 4
+#      MUXCY                       : 436
+#      MUXF5                       : 50
+#      MUXF6                       : 7
+#      VCC                         : 1
+#      XORCY                       : 387
+# FlipFlops/Latches                : 773
+#      FD                          : 159
+#      FDC                         : 4
+#      FDE                         : 523
+#      FDP                         : 4
+#      FDR                         : 19
+#      FDRE                        : 41
+#      FDRSE                       : 1
+#      FDS                         : 22
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 7
+#      OBUF                        : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      750  out of    960    78%  
+ Number of Slice Flip Flops:            773  out of   1920    40%  
+ Number of 4 input LUTs:               1303  out of   1920    67%  
+    Number used as logic:              1301
+    Number used as Shift registers:       2
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of     83    32%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+dividedClock1/outClock1            | BUFG                   | 98    |
+dividedClock2/outClock             | NONE(ledCount_1)       | 12    |
+clk                                | BUFGP                  | 665   |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 21.548ns (Maximum Frequency: 46.408MHz)
+   Minimum input arrival time before clock: 4.913ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dividedClock1/outClock1'
+  Clock period: 21.548ns (frequency: 46.408MHz)
+  Total number of paths / destination ports: 22881221 / 84
+-------------------------------------------------------------------------
+Delay:               21.548ns (Levels of Logic = 26)
+  Source:            data1_2 (FF)
+  Destination:       disp_0 (FF)
+  Source Clock:      dividedClock1/outClock1 rising
+  Destination Clock: dividedClock1/outClock1 rising
+
+  Data Path: data1_2 to disp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            18   0.591   1.243  data1_2 (data1_2)
+     LUT2:I0->O            1   0.704   0.424  alu/mult1/a1<2>1 (alu/mult1/a1<2>)
+     LUT4:I3->O            1   0.704   0.424  alu/mult1/Madd_result_addsub0001C11 (alu/mult1/Madd_result_addsub0001C1)
+     LUT4:I3->O            1   0.704   0.000  alu/mult1/Madd_result_addsub0001_Madd_lut<3> (alu/mult1/Madd_result_addsub0001_Madd_lut<3>)
+     MUXCY:S->O            1   0.464   0.000  alu/mult1/Madd_result_addsub0001_Madd_cy<3> (alu/mult1/Madd_result_addsub0001_Madd_cy<3>)
+     XORCY:CI->O           2   0.804   0.451  alu/mult1/Madd_result_addsub0001_Madd_xor<4> (alu/mult1/result_addsub0001<4>)
+     LUT4:I3->O            1   0.704   0.455  alu/mult1/Madd_result_addsub0003R11 (alu/mult1/Madd_result_addsub0003R1)
+     LUT3:I2->O            1   0.704   0.000  alu/mult1/Madd_result_addsub0003_Madd_lut<4> (alu/mult1/Madd_result_addsub0003_Madd_lut<4>)
+     MUXCY:S->O            1   0.464   0.000  alu/mult1/Madd_result_addsub0003_Madd_cy<4> (alu/mult1/Madd_result_addsub0003_Madd_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  alu/mult1/Madd_result_addsub0003_Madd_cy<5> (alu/mult1/Madd_result_addsub0003_Madd_cy<5>)
+     XORCY:CI->O           2   0.804   0.451  alu/mult1/Madd_result_addsub0003_Madd_xor<6> (alu/mult1/result_addsub0003<6>)
+     LUT4:I3->O            1   0.704   0.455  alu/mult1/Madd_result_addsub0005R11 (alu/mult1/Madd_result_addsub0005R1)
+     LUT3:I2->O            1   0.704   0.000  alu/mult1/Madd_result_addsub0005_Madd_lut<6> (alu/mult1/Madd_result_addsub0005_Madd_lut<6>)
+     MUXCY:S->O            1   0.464   0.000  alu/mult1/Madd_result_addsub0005_Madd_cy<6> (alu/mult1/Madd_result_addsub0005_Madd_cy<6>)
+     XORCY:CI->O           1   0.804   0.455  alu/mult1/Madd_result_addsub0005_Madd_xor<7> (alu/mult1/result_addsub0005<7>)
+     LUT3:I2->O            1   0.704   0.000  alu/mult1/Madd_result_lut<7> (alu/mult1/Madd_result_lut<7>)
+     XORCY:LI->O           1   0.527   0.424  alu/mult1/Madd_result_xor<7> (alu/mult<7>)
+     LUT4:I3->O            2   0.704   0.451  alu/Mmux_Result_5_f5_6 (alu/Mmux_Result_5_f57)
+     LUT4:I3->O            1   0.704   0.000  Mcompar_w_validResult_lut<0> (Mcompar_w_validResult_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_w_validResult_cy<0> (Mcompar_w_validResult_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_w_validResult_cy<1> (Mcompar_w_validResult_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_w_validResult_cy<2> (Mcompar_w_validResult_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_w_validResult_cy<3> (Mcompar_w_validResult_cy<3>)
+     MUXCY:CI->O          28   0.459   1.340  Mcompar_w_validResult_cy<4> (w_validResult)
+     LUT2:I1->O            1   0.704   0.000  disp_mux0003<6>1 (disp_mux0003<6>)
+     MUXF5:I1->O           1   0.321   0.000  Mmux_disp_mux0000_46 (Mmux_disp_mux0000_46)
+     MUXF6:I0->O           1   0.521   0.000  Mmux_disp_mux0000_2_f5_5 (disp_mux0000<6>)
+     FD:D                      0.308          disp_6
+    ----------------------------------------
+    Total                     21.548ns (14.975ns logic, 6.573ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dividedClock2/outClock'
+  Clock period: 4.816ns (frequency: 207.641MHz)
+  Total number of paths / destination ports: 74 / 19
+-------------------------------------------------------------------------
+Delay:               4.816ns (Levels of Logic = 2)
+  Source:            ledCount_2 (FF)
+  Destination:       led_0 (FF)
+  Source Clock:      dividedClock2/outClock rising
+  Destination Clock: dividedClock2/outClock rising
+
+  Data Path: ledCount_2 to led_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               8   0.591   0.932  ledCount_2 (ledCount_2)
+     LUT3:I0->O            4   0.704   0.622  led_mux0000<1>11 (N2)
+     LUT3:I2->O            7   0.704   0.708  led_and00001 (led_and0000)
+     FDE:CE                    0.555          led_0
+    ----------------------------------------
+    Total                      4.816ns (2.554ns logic, 2.262ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 11.244ns (frequency: 88.936MHz)
+  Total number of paths / destination ports: 100304 / 1212
+-------------------------------------------------------------------------
+Delay:               11.244ns (Levels of Logic = 7)
+  Source:            converter/divider1/bit_5 (FF)
+  Destination:       converter/divider1/Result_3 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: converter/divider1/bit_5 to converter/divider1/Result_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              98   0.591   1.362  converter/divider1/bit_5 (converter/divider1/bit_5)
+     LUT3:I1->O            1   0.704   0.424  converter/divider1/quotient_cmp_gt00001_SW0 (N74)
+     LUT4:I3->O           14   0.704   1.004  converter/divider1/quotient_cmp_gt00001 (converter/divider1/quotient_cmp_gt0000)
+     LUT4:I3->O            1   0.704   0.595  converter/divider1/_old_bit_17<2>_SW1 (N225)
+     LUT4:I0->O            2   0.704   0.482  converter/divider1/_old_bit_17<2> (converter/divider1/_old_bit_17<2>)
+     LUT4:I2->O            6   0.704   0.844  converter/divider1/Result_cmp_eq0000 (converter/divider1/Result_cmp_eq0000)
+     LUT4:I0->O            3   0.704   0.706  converter/divider1/Mmux_Result_mux000052_SW1 (N241)
+     LUT4:I0->O            1   0.704   0.000  converter/divider1/Mmux_Result_mux000052 (converter/divider1/Result_mux0000<3>)
+     FDE:D                     0.308          converter/divider1/Result_3
+    ----------------------------------------
+    Total                     11.244ns (5.827ns logic, 5.417ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dividedClock1/outClock1'
+  Total number of paths / destination ports: 23 / 23
+-------------------------------------------------------------------------
+Offset:              4.913ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       data1_0 (FF)
+  Destination Clock: dividedClock1/outClock1 rising
+
+  Data Path: rst to data1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.218   0.995  rst_IBUF (rst_IBUF)
+     LUT2:I0->O           19   0.704   1.085  data1_or00001 (data1_or0000)
+     FDRE:R                    0.911          data1_0
+    ----------------------------------------
+    Total                      4.913ns (2.833ns logic, 2.080ns route)
+                                       (57.7% logic, 42.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.059ns (Levels of Logic = 1)
+  Source:            serial2 (PAD)
+  Destination:       receiver2/Mshreg_r_Rx_Data (FF)
+  Destination Clock: clk rising
+
+  Data Path: serial2 to receiver2/Mshreg_r_Rx_Data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  serial2_IBUF (serial2_IBUF)
+     SRL16:D                   0.421          receiver2/Mshreg_r_Rx_Data
+    ----------------------------------------
+    Total                      2.059ns (1.639ns logic, 0.420ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dividedClock1/outClock1'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            disp_6 (FF)
+  Destination:       disp<6> (PAD)
+  Source Clock:      dividedClock1/outClock1 rising
+
+  Data Path: disp_6 to disp<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  disp_6 (disp_6)
+     OBUF:I->O                 3.272          disp_6_OBUF (disp<6>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dividedClock2/outClock'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            led_6 (FF)
+  Destination:       led<6> (PAD)
+  Source Clock:      dividedClock2/outClock rising
+
+  Data Path: led_6 to led<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.591   0.420  led_6 (led_6)
+     OBUF:I->O                 3.272          led_6_OBUF (led<6>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.86 secs
+ 
+--> 
+
+Total memory usage is 315984 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  673 (   0 filtered)
+Number of infos    :   20 (   0 filtered)
+

@@ -1,0 +1,4 @@
+verilog work "Divider.v"
+verilog work "testD.v"
+verilog work "testDiv.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

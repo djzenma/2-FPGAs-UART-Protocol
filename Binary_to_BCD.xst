@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/eidma/Desktop/Final Project/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/eidma/Desktop/Final Project/xst"
+elaborate
+-ifn Binary_to_BCD.prj
+-ifmt mixed

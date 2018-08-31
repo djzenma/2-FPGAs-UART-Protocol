@@ -1,0 +1,35 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat May 19 23:40:01 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "rst" LOCATE = SITE "N3" LEVEL 1;
+COMP "disp<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "disp<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "disp<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "disp<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "disp<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "disp<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "disp<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "serial1" LOCATE = SITE "A9" LEVEL 1;
+COMP "serial2" LOCATE = SITE "C6" LEVEL 1;
+COMP "multBut" LOCATE = SITE "M4" LEVEL 1;
+COMP "addBut" LOCATE = SITE "G12" LEVEL 1;
+COMP "segmentCount<0>" LOCATE = SITE "K14" LEVEL 1;
+COMP "segmentCount<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "segmentCount<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "segmentCount<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "G1" LEVEL 1;
+COMP "divBut" LOCATE = SITE "A7" LEVEL 1;
+COMP "subBut" LOCATE = SITE "C11" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

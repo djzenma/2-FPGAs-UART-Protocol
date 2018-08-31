@@ -1,0 +1,27 @@
+ISim log file
+Running: C:\Users\eidma\Desktop\Final Project\receiveTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/eidma/Desktop/Final Project/receiveTest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/eidma/Desktop/Final Project/ALU.v" Line 29.  For instance alu/divider/, width 32 of formal port Result is not equal to width 8 of actual signal divResult.
+WARNING: File "C:/Users/eidma/Desktop/Final Project/ALU.v" Line 30.  For instance alu/divider/, width 32 of formal port Remainder is not equal to width 8 of actual signal remainder.
+WARNING: File "C:/Users/eidma/Desktop/Final Project/ALU.v" Line 24.  For instance alu/divider/, width 32 of formal port dividend is not equal to width 8 of actual signal A.
+WARNING: File "C:/Users/eidma/Desktop/Final Project/ALU.v" Line 24.  For instance alu/divider/, width 32 of formal port divider is not equal to width 8 of actual signal B.
+WARNING:  For instance alu/divider/, width 1 of formal port sign is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/eidma/Desktop/Final Project/ReceiveNums.v" Line 125.  For instance uut/alu/, width 8 of formal port remainder is not equal to width 1 of actual signal remainder.
+WARNING:  For instance converter/divider1/, width 1 of formal port sign is not equal to width 32 of actual constant.
+WARNING:  For instance converter/divider2/, width 1 of formal port sign is not equal to width 32 of actual constant.
+WARNING:  For instance converter/divider3/, width 1 of formal port sign is not equal to width 32 of actual constant.
+WARNING:  For instance uut/segment1/, width 4 of formal port in is not equal to width 7 of actual constant.
+WARNING:  For instance uut/segment2/, width 4 of formal port in is not equal to width 7 of actual constant.
+WARNING:  For instance uut/segment3/, width 4 of formal port in is not equal to width 7 of actual constant.
+WARNING:  For instance uut/segment4/, width 4 of formal port in is not equal to width 7 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 5 s
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 4418910740 ns : File "C:/Users/eidma/Desktop/Final Project/Divider.v" Line 88

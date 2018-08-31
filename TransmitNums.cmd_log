@@ -1,0 +1,351 @@
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "E:/Final Project/TransmitNums.xst" -ofn "E:/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/eidma/Desktop/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Desktop/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/eidma/Desktop/Final Project/TransmitNums.xst" -ofn "C:/Users/eidma/Desktop/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+xst -intstyle ise -ifn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.xst" -ofn "C:/Users/khaledsoli111/Xilinx/Final Project/TransmitNums.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TransmitNumsConstraint.ucf -p xc3s100e-cp132-4 "TransmitNums.ngc" TransmitNums.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TransmitNums_map.ncd TransmitNums.ngd TransmitNums.pcf 
+par -w -intstyle ise -ol high -t 1 TransmitNums_map.ncd TransmitNums.ncd TransmitNums.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TransmitNums.twx TransmitNums.ncd -o TransmitNums.twr TransmitNums.pcf -ucf TransmitNumsConstraint.ucf 
+bitgen -intstyle ise -f TransmitNums.ut TransmitNums.ncd 
